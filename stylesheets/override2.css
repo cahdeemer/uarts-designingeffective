@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+header, footer, nav, article {
+	display: block;
+}
+
+body {
+	background-color: #555;
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #333;
+	font-family: "Open Sans",Helvetica,sans-serif;
+	
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Dosis,Helvetica,sans-serif;
+	color: #003A47;
+}
+
+h1 {
+	color: #00151A;
+}
+
+a {
+	color: #007991;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: #B81F13;
+}
+
+a:visited:hover {
+	color: #B81F13;
+}
+
+header {
+	height: 350px;
+	background-color: grey;
+}
+
+.logo {
+	float: left;
+	margin-right: 10px;
+}
+
+nav a {
+	margin: 0 25px;
+	padding: 10px 5px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background-color: #FEF1B5;
+}
+
+nav ul {
+	border-bottom: 1px solid #EEE;
+	min-height: 40px;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 25px;
+}
+
+.copyright {
+	margin-top: 10px;
+	text-align: center;
+	color: #999;
+}
+
+.container {
+	background-color: white;
+	margin: 25px auto;
+}
+
+.wrapper {
+	padding: 5px;
+}
+
+.map img {
+	float: left;
+	margin-right: 15px;
+}
+
+.social img {
+	margin-right: 15px;
+}
