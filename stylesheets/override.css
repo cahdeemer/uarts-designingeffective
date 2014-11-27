@@ -98,14 +98,6 @@ header {
 	padding-bottom: 20px;
 }
 
-/*.donate {
-	background-color: #EFC859;
-	margin: 0 70px 10px 10px;
-	border-radius: 0 0 15px 15px;
-	text-align: center;
-	padding-top: 10px;
-}*/
-
 #search {
 	margin-top: 10px;
 	margin-left: 10px;
@@ -137,21 +129,27 @@ header {
 
 /* Photo Section Styles */
 
-.bigphoto {
-	position: relative;
-	height: 600px;
+
+
+.bigphoto img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding-bottom: 0;
 }
 
 
 .bigphoto h2 {
-	/*position: absolute;
-	top: 517px;
-	width: 100%; */
+	display: block;
+	position: absolute;
+	top: 39.3%;
+	width: 100%;
+	margin-bottom: 0;
 	padding-top: 27px;
 	padding-bottom: 27px;
 	text-align: center;
 	background-color: #DFEBF1;
-	background-color: rgba(223, 235, 241, .7);
+	background-color: rgba(223, 235, 241, .5);
 }
 
 
@@ -202,10 +200,13 @@ article h2 {
 }
 
 .smallphoto {
-	position: relative;
-	height: 297px;
 	margin-top: 50px;
 
+}
+
+
+.smallphoto img {
+	display: block;
 }
 
 .signup {
@@ -253,8 +254,12 @@ footer {
 	color: #DFEBF1;
 }
 
-iframe {
+.map {
 	margin: 40px 0 15px 0;
+}
+
+.map:hover {
+	opacity: 0.7;
 }
 
 .addressblock {
@@ -311,9 +316,17 @@ footer a:visited {
 		font-size: 20px;
 	}
 
+	.bigphoto {
+		margin-bottom: 0 !important;
+	}
+
+	.bigphoto h2 {
+		position: static;
+		background-color: #DFEBF1;
+	}
+
 	nav {
 		padding-right: 48px;
-		border: 1px solid red;
 	}
 
 	nav ul li {
@@ -332,6 +345,14 @@ footer a:visited {
 	nav ul {
 		border-bottom: none;
 	}	
+
+	.smallphoto img {
+		max-width: 100%;
+	}
+
+	.map {
+		width: 95%;
+	}
 
 	table td:nth-child(odd) {
 		padding-right: 20px;
@@ -366,6 +387,8 @@ footer a:visited {
 	}
 
 	.bigphoto h2 {
+		position: static;
+		background-color: #DFEBF1;
 		text-align: left;
 	}
 
@@ -392,6 +415,11 @@ footer a:visited {
 		margin-left: 20px;
 	}
 
+	.signup {
+		background-color: #DFEBF1;
+		border-radius: 0;
+	}
+
 	.copyright p{
 		margin-left: 15px;
 	}
@@ -401,13 +429,38 @@ footer a:visited {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
-	
+
+	.bigphoto h2 {
+		width: 92.8%;
+		background-color: #DFEBF1;
+	}
+
+	.smallphoto {
+		max-width: 100%;
+		margin: 50px auto 10px 70px;
+	}
+
+	.map {
+		margin: 50px 70px 20px 90px;
+	}	
 	
 }
  
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 
+.bigphoto h2 {
+		width: 90%;
+		background-color: #DFEBF1;
+	}
+
+	.smallphoto {
+		margin: 50px 10px 20px 10px;
+	}
+
+	.map {
+		margin: 50px 30px 20px 35px;
+	}
 	
 }
 
