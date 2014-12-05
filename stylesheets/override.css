@@ -282,6 +282,15 @@ footer a:visited {
 	color: #DFEBF1;
 }
 
+.social {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.social td {
+	padding-bottom: 15px;
+}
+
 .copyright {
 	background-color: #003859;
 	color: #DFEBF1;
@@ -354,9 +363,9 @@ footer a:visited {
 		width: 95%;
 	}
 
-	table td:nth-child(odd) {
+	/*table td:nth-child(odd) {
 		padding-right: 20px;
-	}
+	}*/
 
 }
  
@@ -379,11 +388,6 @@ footer a:visited {
 
 	footer table {
 		margin: 0 auto 15px auto;
-	}
-
-	table td:nth-child(odd) {
-		padding-right: 40px;
-		padding-bottom: 20px;
 	}
 
 	.bigphoto h2 {
@@ -443,6 +447,12 @@ footer a:visited {
 	.map {
 		margin: 50px 70px 20px 90px;
 	}	
+
+	table td {
+		padding-right: 40px;
+		padding-bottom: 20px;
+	}
+
 	
 }
  
@@ -460,6 +470,11 @@ footer a:visited {
 
 	.map {
 		margin: 50px 30px 20px 35px;
+	}
+
+	table td {
+		padding-right: 20px;
+		padding-bottom: 20px;
 	}
 	
 }
