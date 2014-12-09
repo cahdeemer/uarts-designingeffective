@@ -142,7 +142,7 @@ header {
 .bigphoto h2 {
 	display: block;
 	position: absolute;
-	top: 39.3%;
+	top: 684px;
 	width: 100%;
 	margin-bottom: 0;
 	padding-top: 27px;
@@ -199,11 +199,25 @@ article h2 {
 	padding-top: 50px;
 }
 
+#hideMeDiv {
+	margin: 15px 0 0;
+	max-height: 24px;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: 0.5s all;
+	transition: 0.5s all;
+}
+#hideMeDiv.active {
+	max-height: 300px;
+}
+#hideMeDiv p {
+	margin-bottom: 0;
+}
+
 .smallphoto {
 	margin-top: 50px;
 
 }
-
 
 .smallphoto img {
 	display: block;
