@@ -5,10 +5,6 @@ $(document).ready(function() {
 	$("body").css("display", "none");
 	$("body").fadeIn(1000,"swing");
 
-
-	// Draggable Example
-	
-	$("#draggable").draggable();
 	
 	// Accordion Navigation
         
@@ -20,7 +16,7 @@ $(document).ready(function() {
 				$(this).addClass('active');
 		}
 	});
-	
+
 	//Toggle Content
 	
 	$('#hideMeTrigger').click(function() {

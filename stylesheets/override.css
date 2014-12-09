@@ -188,6 +188,7 @@ nav ul li {
 	display: inline;
 }
 
+
 /* Main Section or Article Styles */
 
 article {
@@ -285,7 +286,7 @@ footer table {
 }
 
 footer td {
-	padding-right: 15px;
+	padding-right: 35px;
 }
 
 footer a {
