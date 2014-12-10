@@ -378,9 +378,9 @@ footer a:visited {
 		width: 95%;
 	}
 
-	/*table td:nth-child(odd) {
+	table td {
 		padding-right: 20px;
-	}*/
+	}
 
 }
  
