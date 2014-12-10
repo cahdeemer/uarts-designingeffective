@@ -26,7 +26,7 @@ $(document).ready(function() {
     	if ($('#hideMeDiv').hasClass('active')){
     		text = 'Show Less';
     	} else {
-    		text = 'Show More';
+    		text = 'Continue Reading';
     	}
 
     	$(this).text(text);

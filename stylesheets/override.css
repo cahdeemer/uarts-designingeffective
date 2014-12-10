@@ -53,8 +53,8 @@ button {
 button:hover {
 	color: #404040;
 	background: none;
-	background-color: #F1CE69;
-	border: 1px solid #F1CE69;
+	background-color: #F4D887;
+	border: 1px solid #F4D887;
 }
 
 
@@ -213,6 +213,10 @@ article h2 {
 }
 #hideMeDiv p {
 	margin-bottom: 0;
+}
+
+#hideMeTrigger {
+	float: right;
 }
 
 .smallphoto {
@@ -438,6 +442,11 @@ footer a:visited {
 		background-color: #DFEBF1;
 		border-radius: 0;
 	}
+
+	.addressblock {
+		margin-left: 15px;
+	}
+
 
 	.copyright p{
 		margin-left: 15px;
